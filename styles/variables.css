@@ -1,0 +1,21 @@
+/* Variables.css */
+
+/* Цветовая палитра */
+:root {
+    --color-primary: #ff6600; /* Основной цвет (кнопки, акценты) */
+    --color-primary-hover: #e05500; /* Цвет кнопок при наведении */
+    --color-secondary: #222222; /* Второстепенный цвет (фон футера) */
+    --color-bg: #f9f9f9; /* Фон секций */
+    --color-text: #333333; /* Основной текст */
+    --color-text-secondary: #4A4A4A;
+    --color-heading: #ffffff; /* Заголовки на темном фоне */
+    --color-highlight: #ffc107; /* Цвет для иконок/графики */
+  
+    /* Шрифты */
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    --font-family-primary: 'Roboto', sans-serif; 
+    
+    /* Основной шрифт */
+    --font-size-base: 16px; /* Базовый размер текста */
+    --font-size-heading: 30px;
+    --font-size-big: 80px;
