@@ -59,17 +59,30 @@ header {
     text-transform: uppercase;
 }
 
-.btn {
-    width: 315px;
-    height: 72px;
-    border-radius: 4px;
-    background: linear-gradient(0deg, #FF4D00 0%, #FEB05D 100%);
-    margin: 5rem auto;
-    color: var(--color-heading);
-    text-transform: uppercase;
-}
 
 .icon-down {
     display: flex;
     margin: 1rem auto;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        background-position: center;
+    }
+
+    .container-header {
+        padding: 2rem;
+    }
+
+    .container-header .txt-title,
+    .container-header .txt-title-big {
+        font-size: 1.5rem;
+    }
+
+    .container-header p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
 }

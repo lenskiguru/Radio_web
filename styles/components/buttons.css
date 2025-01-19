@@ -1,0 +1,16 @@
+
+.btn {
+    width: 315px;
+    height: 72px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #FF4D00 0%, #FEB05D 100%);
+    margin: 5rem auto;
+    color: var(--color-heading);
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+.btn {
+    font-size: 1rem;
+}
+}
